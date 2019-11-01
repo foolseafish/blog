@@ -3,7 +3,7 @@
 <pre>
 问题描述：给定一棵二叉树tree和整数k,返回第k小的值。
 函数类型：（root:TreeNode,k:int）=>number
-假设入参root=   
+假设入参root=[3,1,4,null,2]
    3
   / \
  1   4
