@@ -1,5 +1,6 @@
 # Reverse Nodes in k-Group
 ## 描述
+函数类型：（head:LinkNode,k:int）=>LinkNode
 假设入参链表head为1->2->3->4->5，k=2，头指针h指向1,输出链表应该为2->1->4->3->5。
 ## 思路
 1.以k为单位翻转链表。
