@@ -15,10 +15,10 @@ const mergeTwoLists = (l1, l2) => {
         if(!l1 && !l2)return fakeHead.next;
         if(!l1){
             cur.next = l2;
-            l2 = l2.next;
+            return fakeHead.next;
         } else if(!l2) {
             cur.next = l1;
-            l1 = l1.next;
+            return fakeHead.next;
         } else if(l1.val<=l2.val){
             cur.next = l1;
             l1 = l1.next;            

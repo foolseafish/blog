@@ -25,7 +25,7 @@ const quickSort = (arr, start=0, end=arr.length-1)=>{
     for(let i = start; i < end; i++){
        if(arr[i]<temp){
             swap(arr,i,pivot);            
-            pivot++;
+            pivot++;++
        }       
     }
     swap(arr,pivot,end);
